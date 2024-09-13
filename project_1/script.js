@@ -1,17 +1,14 @@
 let buttons = document.querySelectorAll(".button");
 let body = document.querySelector("body");
 
-
-for (btn of buttons) {
+for (let btn of buttons) {
+  // Declare 'btn' with 'let'
   btn.addEventListener("click", (e) => {
     console.log(e.target);
 
     let color = e.target.getAttribute("id");
-    console.log(color);
 
-    body.style.backgroundColor=color;
- 
-   
-
+    body.style.backgroundColor = color; // Change the body's background color
   });
 }
+ 
