@@ -1,0 +1,36 @@
+.container {
+  border: 2px solid black;
+
+  max-width: 1200px;
+
+  margin: 0px auto;
+}
+
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  display: inline-block;
+
+}
+
+
+#grey {
+  background-color: grey;
+}
+
+#white
+{
+  background-color: white;
+}
+
+#blue
+{
+  background-color: blue;
+}
+
+#yellow
+{
+  background-color: yellow;
+}
